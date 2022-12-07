@@ -27,14 +27,14 @@
 /* Helper_Classes____ End */
 
 body{
-    background-color: rgb(236, 236, 236);    
+    background: radial-gradient(circle, rgba(116, 66, 233, 0.548) 15%, rgba(166, 144, 196, 0.356) 48%, rgba(193, 50, 102, 0.171) 100%);  
 }
 .main_container{
     max-width: 75%;
     margin: 5em auto;
 }
 .page_header{
-    background-color: rgb(178, 152, 247);
+    /* background-color: rgb(178, 152, 247); */
     margin-top: 5em;
 }
 main{
@@ -46,9 +46,11 @@ main{
 form{
     min-width: 60%;
     margin-left: 2em;
+    border-radius: 5px;
+    background-color: pink;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.288);
 }
 .name, .email, .phone{
-    background-color: pink;
     min-height: 2em;
     padding: 15px;
 
