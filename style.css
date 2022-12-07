@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Helper_Classes____*/
+.flex_center_column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flex_center_row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_adj{
+    text-align: center;
+    color: rgb(36, 35, 35);
+    padding: 15px; 
+    max-width: 70%;   
+    margin: 0 auto;
+}
+/* Helper_Classes____ End */
+
+body{
+    background-color: rgb(236, 236, 236);    
+}
+.main_container{
+    max-width: 75%;
+    margin: 5em auto;
+}
+.page_header{
+    background-color: rgb(178, 152, 247);
+    margin-top: 5em;
+}
+main{
+    margin: 6em auto;
+    display: flex;
+    align-items: flex-start;
+    min-width: 100%;
+}
+form{
+    min-width: 60%;
+    margin-left: 2em;
+}
+.name, .email, .phone{
+    background-color: pink;
+    min-height: 2em;
+    padding: 15px;
+
+}
+label{
+    width: 150px;
+}
+input{
+    width: 100%;
+    min-height: 2em;
+}
