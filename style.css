@@ -12,7 +12,7 @@
 }
 .flex_center_row{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -34,8 +34,13 @@ body{
     margin: 5em auto;
 }
 .page_header{
-    /* background-color: rgb(178, 152, 247); */
     margin-top: 5em;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(2.6rem, 3.5vw, 5rem);
+    text-transform: capitalize;
+    text-shadow: 1px 1px 2px rgb(177, 177, 177);
 }
 main{
     margin: 6em auto;
@@ -45,10 +50,11 @@ main{
 }
 form{
     min-width: 60%;
-    margin-left: 2em;
+    /* margin-left: 2em; */
     border-radius: 5px;
     background-color: pink;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.288);
+    border: 2px solid rgba(0, 0, 0, 0.158);
 }
 .name, .email, .phone{
     min-height: 2em;
@@ -59,6 +65,29 @@ label{
     width: 150px;
 }
 input{
+    border-radius: 5px;
     width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
     min-height: 2em;
+}
+input::placeholder{
+    padding-left: 15px;
+    font-size: 14px;
+    font-style:italic ;
+}
+
+.photo_section{
+    max-width: 60%;    
+}
+
+img{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 90%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.288);
 }
